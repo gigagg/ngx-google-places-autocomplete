@@ -9,8 +9,8 @@
     "github:release" : "yarn run bestzip build.zip ./dist/* && node publish_release_github.js"
   },
   "license": "MIT",
-  "typings": "ngx-google-places-autocomplete.d.ts",
-  "main": "bundles/ngx-google-places-autocomplete.umd.js",
+  "typings": "dist/ngx-google-places-autocomplete.d.ts",
+  "main": "dist/ngx-google-places-autocomplete.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skynet2/ngx-google-places-autocomplete"
